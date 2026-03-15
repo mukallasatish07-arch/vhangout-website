@@ -1,1 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>V Hangout Resto Cafe</title>
 
+<style>
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#111;
+    color:white;
+}
+
+/* HEADER */
+header{
+    background:url('cafe.jpg') center/cover no-repeat;
+    height:90vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+header h1{
+    font-size:60px;
+    margin:0;
+}
+
+header p{
+    font-size:22px;
+}
+
+.btn{
+    background:orange;
+    color:white;
+    padding:12px 25px;
+    margin:10px;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+/* SECTION */
+section{
+    padding:50px 20px;
+    text-align:center;
+}
+
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.card{
+    background:#222;
+    margin:15px;
+    padding:20px;
+    width:250px;
+    border-radius:10px;
+}
+
+/* FOOTER */
+footer{
+    background:black;
+    padding:20px;
+    text-align:center;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>V Hangout Resto Cafe</h1>
+    <p>Good Food • Great Vibes • Perfect Hangout</p>
+    <a class="btn" href="#">Reserve Table</a>
+    <a class="btn" href="#">Call Now</a>
+</header>
+
+<section>
+<h2>Welcome</h2>
+<p>
+Welcome to V Hangout Resto Cafe — a cozy destination where delicious food meets a relaxing atmosphere.
+Enjoy coffee, meals, desserts and rooftop dining with friends and family.
+</p>
+</section>
+
+<section>
+<h2>Our Specialties</h2>
+<div class="cards">
+
+<div class="card">
+<h3>☕ Coffee & Tea</h3>
+<p>Freshly brewed beverages.</p>
+</div>
+
+<div class="card">
+<h3>🍗 Starters</h3>
+<p>Delicious veg & non-veg appetizers.</p>
+</div>
+
+<div class="card">
+<h3>🍰 Desserts</h3>
+<p>Sweet treats & bakery items.</p>
+</div>
+
+<div class="card">
+<h3>🌃 Rooftop Dining</h3>
+<p>Enjoy food with beautiful ambience.</p>
+</div>
+
+</div>
+</section>
+
+<section>
+<h2>Visit Us</h2>
+
+<iframe
+src="https://www.google.com/maps?q=V+Hangout+Resto+Cafe&output=embed"
+width="90%" height="300" style="border:0;">
+</iframe>
+
+</section>
+
+<footer>
+<p>© 2026 V Hangout Resto Cafe | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
